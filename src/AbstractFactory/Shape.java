@@ -1,5 +1,5 @@
 package AbstractFactory;
 
-public abstract class Shape {
-	abstract void draw();
+public interface Shape {
+	public void draw();
 }

@@ -1,6 +1,6 @@
 package AbstractFactory;
 
-public class ShapeFactory extends AbstractFactory{
+public class ShapeFactory implements AbstractFactory{
 	@Override
 	public Shape getShape(String shapeType) {
 		if (shapeType.equalsIgnoreCase("Rectangle")) {
