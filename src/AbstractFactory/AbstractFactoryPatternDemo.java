@@ -6,12 +6,14 @@ public class AbstractFactoryPatternDemo {
 		// TODO Auto-generated method stub
 		System.out.println("Hello");
 		AbstractFactory shapeFactory = FactoryProducer.getFactory(false);
-		Shape Rectangle = shapeFactory.getShape("Rectangle");
-		Rectangle.draw();
+		Object Rectangle = shapeFactory.getShape("Rectangle");
+		((Shape) Rectangle).draw();
+		((Color) Rectangle).paint();
 		
 		AbstractFactory roundedShapeFactory = FactoryProducer.getFactory(true);
-		Shape RoundedRectangle = roundedShapeFactory.getShape("Rectangle");
-		RoundedRectangle.draw();
+		Object RoundedRectangle = roundedShapeFactory.getShape("Rectangle");
+		((Shape) RoundedRectangle).draw();
+		((Color) RoundedRectangle).paint();
 	}
 
 }

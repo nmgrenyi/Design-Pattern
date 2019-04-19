@@ -1,5 +1,5 @@
 package AbstractFactory;
 
 public interface AbstractFactory {
-	public Shape getShape(String shapeType);
+	public Object getShape(String shapeType);
 }
