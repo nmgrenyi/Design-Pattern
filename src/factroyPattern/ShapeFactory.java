@@ -1,9 +1,9 @@
 package factroyPattern;
 
-public class ShapeFactory {
+public class ShapeFactory{
 	
 	//private Shape shape;
-	
+
 	public Shape getShape(String shape) {
 		if (shape.equals("circle")) {
 			return new Circle();
