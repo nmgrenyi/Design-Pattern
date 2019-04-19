@@ -1,7 +1,5 @@
 package AbstractFactory;
 
 public abstract class Shape {
-	public void draw(){
-		
-	};
+	abstract void draw();
 }
