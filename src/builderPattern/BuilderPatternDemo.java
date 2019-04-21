@@ -9,6 +9,8 @@ public class BuilderPatternDemo {
 		nonVegMeal.showItems();
 		Meal vegMeal = mealBuilder.prepareVegMeal();
 		vegMeal.showItems();
+		
+		
 	}
 
 }
