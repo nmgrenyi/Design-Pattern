@@ -10,7 +10,6 @@ public class BuilderPatternDemo {
 		Meal vegMeal = mealBuilder.prepareVegMeal();
 		vegMeal.showItems();
 		
-		
 	}
 
 }
