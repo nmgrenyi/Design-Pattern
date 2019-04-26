@@ -13,7 +13,9 @@ public class MealBuilder {
 	public Meal prepareNonVegMeal() {
 		Burger burger = new ChickenBurger();
 		Meal meal = new Meal();
+		ColdDrink coke = new Coke();
 		meal.addItem(burger);
+		meal.addItem(coke);
 		return meal;
 	}
 }
